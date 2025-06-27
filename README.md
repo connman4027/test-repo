@@ -10,6 +10,30 @@ Stay on top of your literature: JabRef helps you to collect and organize sources
 
 JabRef is available free of charge and is actively developed.
 It supports you in every step of your research work.
+## Contributing
+
+[![dev-docs](https://img.shields.io/badge/dev-docs-blue)](https://devdocs.jabref.org/)
+[![Help Contribute to Open Source](https://www.codetriage.com/jabref/jabref/badges/users.svg)](https://www.codetriage.com/jabref/jabref)
+[![Join the chat at https://gitter.im/JabRef/jabref](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JabRef/jabref?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![OpenHub](https://www.openhub.net/p/jabref/widgets/project_thin_badge.gif)](https://www.openhub.net/p/jabref)
+[![Deployment Status](https://github.com/JabRef/jabref/workflows/Deployment/badge.svg)](https://github.com/JabRef/jabref/actions?query=workflow%3ADeployment)
+[![Test Status](https://github.com/JabRef/jabref/workflows/Tests/badge.svg)](https://github.com/JabRef/jabref/actions?query=workflow%3ATests)
+[![codecov.io](https://codecov.io/github/JabRef/jabref/coverage.svg?branch=master)](https://codecov.io/github/JabRef/jabref?branch=main)
+
+Want to be part of a free and open-source project that tens of thousands of scientists use every day?
+Check out the ways you can contribute, below:
+
+- Not a programmer? Help translating JabRef at [Crowdin](https://crowdin.com/project/jabref) or learn how to help at [contribute.jabref.org](https://contribute.jabref.org)
+- Quick overview on the architecture needed? Look at our [high-level documentation](https://devdocs.jabref.org/getting-into-the-code/high-level-documentation)
+- For details on how to contribute, have a look at our [guidelines for contributing](CONTRIBUTING.md).
+- You are welcome to contribute new features. To get your code included into JabRef, just [fork](https://help.github.com/en/articles/fork-a-repo) the JabRef repository, make your changes, and create a [pull request](https://help.github.com/en/articles/about-pull-requests).
+- To work on existing JabRef issues, check out our [issue tracker](https://github.com/JabRef/jabref/issues). New to open source contributing? Look for issues with the ["good first issue"](https://github.com/JabRef/jabref/labels/good%20first%20issue) label to get started.
+
+We view pull requests as a collaborative process.
+Submit a pull request early to get feedback from the team on work in progress.
+We will discuss improvements with you and agree to merge them once the [developers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS) approve. Please also remember to discuss bigger changes early with the core developers to avoid a waste of time and work. Some fundamental design decisions can be found within our list of [Architectural Decision Records](https://devdocs.jabref.org/decisions/).
+
+If you want a step-by-step walk-through on how to set-up your workspace, please check [this guideline](https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace).
 
 ### Collect
 
@@ -63,31 +87,6 @@ If you need support in using JabRef, please read [the documentation](https://doc
 You can use our [GitHub issue tracker](https://github.com/JabRef/jabref/issues) to file bug reports.
 
 An explanation of donation possibilities and usage of donations is available at our [donations page](https://donations.jabref.org).
-
-## Contributing
-
-[![dev-docs](https://img.shields.io/badge/dev-docs-blue)](https://devdocs.jabref.org/)
-[![Help Contribute to Open Source](https://www.codetriage.com/jabref/jabref/badges/users.svg)](https://www.codetriage.com/jabref/jabref)
-[![Join the chat at https://gitter.im/JabRef/jabref](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JabRef/jabref?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![OpenHub](https://www.openhub.net/p/jabref/widgets/project_thin_badge.gif)](https://www.openhub.net/p/jabref)
-[![Deployment Status](https://github.com/JabRef/jabref/workflows/Deployment/badge.svg)](https://github.com/JabRef/jabref/actions?query=workflow%3ADeployment)
-[![Test Status](https://github.com/JabRef/jabref/workflows/Tests/badge.svg)](https://github.com/JabRef/jabref/actions?query=workflow%3ATests)
-[![codecov.io](https://codecov.io/github/JabRef/jabref/coverage.svg?branch=master)](https://codecov.io/github/JabRef/jabref?branch=main)
-
-Want to be part of a free and open-source project that tens of thousands of scientists use every day?
-Check out the ways you can contribute, below:
-
-- Not a programmer? Help translating JabRef at [Crowdin](https://crowdin.com/project/jabref) or learn how to help at [contribute.jabref.org](https://contribute.jabref.org)
-- Quick overview on the architecture needed? Look at our [high-level documentation](https://devdocs.jabref.org/getting-into-the-code/high-level-documentation)
-- For details on how to contribute, have a look at our [guidelines for contributing](CONTRIBUTING.md).
-- You are welcome to contribute new features. To get your code included into JabRef, just [fork](https://help.github.com/en/articles/fork-a-repo) the JabRef repository, make your changes, and create a [pull request](https://help.github.com/en/articles/about-pull-requests).
-- To work on existing JabRef issues, check out our [issue tracker](https://github.com/JabRef/jabref/issues). New to open source contributing? Look for issues with the ["good first issue"](https://github.com/JabRef/jabref/labels/good%20first%20issue) label to get started.
-
-We view pull requests as a collaborative process.
-Submit a pull request early to get feedback from the team on work in progress.
-We will discuss improvements with you and agree to merge them once the [developers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS) approve. Please also remember to discuss bigger changes early with the core developers to avoid a waste of time and work. Some fundamental design decisions can be found within our list of [Architectural Decision Records](https://devdocs.jabref.org/decisions/).
-
-If you want a step-by-step walk-through on how to set-up your workspace, please check [this guideline](https://devdocs.jabref.org/getting-into-the-code/guidelines-for-setting-up-a-local-workspace).
 
 To compile JabRef from source, you need a Java Development Kit 20 and `JAVA_HOME` pointing to this JDK.
 To run it, just execute `gradlew run`.

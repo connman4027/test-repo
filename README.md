@@ -74,7 +74,7 @@ An explanation of donation possibilities and usage of donations is available at 
 [![Test Status](https://github.com/JabRef/jabref/workflows/Tests/badge.svg)](https://github.com/JabRef/jabref/actions?query=workflow%3ATests)
 [![codecov.io](https://codecov.io/github/JabRef/jabref/coverage.svg?branch=master)](https://codecov.io/github/JabRef/jabref?branch=main)
 
-Want to be part of a free and open-source project that tens of thousands of scientists use every day?
+Want to be apart of a free and open-source project that tens of thousands of scientists use every day?
 Check out the ways you can contribute, below:
 
 - Not a programmer? Help translating JabRef at [Crowdin](https://crowdin.com/project/jabref) or learn how to help at [contribute.jabref.org](https://contribute.jabref.org)

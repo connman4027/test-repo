@@ -6,7 +6,7 @@ Stay on top of your literature: JabRef helps you to collect and organize sources
 
 ![main table](docs/images/jabref-mainscreen.png)
 
-## Features
+### Features
 
 JabRef is available free of charge and is actively developed.
 It supports you in every step of your research work.
